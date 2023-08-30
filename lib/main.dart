@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'sign in page/sign_in.dart';
+import 'package:strut_app/homepage/home.dart';
 
 void main() {
-  runApp(const SignIn());
+ runApp(const MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: StrutHome(), 
+  ));
 }
-
